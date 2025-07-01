@@ -18,7 +18,7 @@ if (config.ENVIRONMENT === "development") {
       path: "/docs",
       documentation: {
         info: {
-          title: "API Proyectos I+D - Bun + Elysia",
+          title: "API Proyectos I+D -openFIN",
           version: "1.0.0",
           description: "API para gestión de datos académicos",
         },
