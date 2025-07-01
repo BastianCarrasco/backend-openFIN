@@ -22,35 +22,35 @@ if (config.ENVIRONMENT === "development") {
           version: "1.0.0",
           description: "API para gestión de datos académicos",
         },
-        tags: [
-          { name: "Health", description: "Health checks del sistema" },
-          { name: "Académicos", description: "Gestión de datos de académicos" },
-        ],
-        components: {
-          schemas: {
-            Academico: {
-              type: "object",
-              properties: {
-                id_academico: { type: "number", example: 103 },
-                nombre: { type: "string", example: "ABDON" },
-                email: {
-                  type: "string",
-                  format: "email",
-                  example: "abdon.cifuentes@pucv.cl",
-                },
-                a_materno: { type: "string", example: "VALENZUELA" },
-                a_paterno: { type: "string", example: "CIFUENTES" },
-              },
-            },
-            Unidad_Academica: {
-              type: "object",
-              properties: {
-                id_unidad: { type: "number", example: 103 },
-                nombre: { type: "string", example: "Ing Civil Mecanica" },
-              },
-            },
-          },
-        },
+        // tags: [
+        //   { name: "Health", description: "Health checks del sistema" },
+        //   { name: "Académicos", description: "Gestión de datos de académicos" },
+        // ],
+        // components: {
+        //   // schemas: {
+        //   //   Academico: {
+        //   //     type: "object",
+        //   //     properties: {
+        //   //       id_academico: { type: "number", example: 103 },
+        //   //       nombre: { type: "string", example: "ABDON" },
+        //   //       email: {
+        //   //         type: "string",
+        //   //         format: "email",
+        //   //         example: "abdon.cifuentes@pucv.cl",
+        //   //       },
+        //   //       a_materno: { type: "string", example: "VALENZUELA" },
+        //   //       a_paterno: { type: "string", example: "CIFUENTES" },
+        //   //     },
+        //   //   },
+        //   //   Unidad_Academica: {
+        //   //     type: "object",
+        //   //     properties: {
+        //   //       id_unidad: { type: "number", example: 103 },
+        //   //       nombre: { type: "string", example: "Ing Civil Mecanica" },
+        //   //     },
+        //   //   },
+        //   // },
+        // },
       },
     })
   );
